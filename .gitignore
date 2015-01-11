@@ -31,3 +31,7 @@ npm-debug.log
 
 #Bower components
 bower_components
+
+#assets/*/lib
+app/assets/js/lib
+app/assets/scss/lib

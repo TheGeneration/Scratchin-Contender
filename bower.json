@@ -31,6 +31,10 @@
     "jquery": "~2.1.3"
   },
   "install": {
-    "path": "app/bower_components"
+    "path": {
+        "js": "app/assets/js/lib",
+        "scss": "app/assets/scss/lib",
+        "css": "app/assets/css/lib"
+    }
   }
 }
