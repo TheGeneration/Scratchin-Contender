@@ -1,0 +1,34 @@
+{
+	"name": "scratchin-contender",
+	"version": "0.0.1",
+	"homepage": "todo",
+	"author": "Generation <info@thegeneration.se>",
+	"contribitors": [{
+		"name": "StenW",
+		"email": "sten@thegeneration.se"
+		}],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TheGeneration/Scratchin-Contender.git"
+	},
+	"bugs": {
+		"url": "https://github.com/TheGeneration/Scratchin-Contender.git/issues"
+	},
+	"keywords": [
+		"Ping pong?"
+	],
+	"dependencies": {
+		
+	},
+	"devDependencies": {
+		"bower": "^1.3.1",
+		"http-server": "^0.6.1",
+		"grunt": "0.4.5"
+	},
+	"scripts": {
+		"postinstall": "bower install",
+
+		"prestart": "npm install",
+    	"start": "http-server -a localhost -p 8000 -c-1"
+	}
+}
