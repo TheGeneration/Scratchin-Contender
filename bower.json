@@ -26,5 +26,8 @@
     "normalize.css": "3.0.2",
     "bourbon": "4.1.0",
     "neat": "1.7.0"
+  },
+  "resolutions": {
+    "jquery": "~2.1.3"
   }
 }
