@@ -32,6 +32,11 @@ npm-debug.log
 #Bower components
 bower_components
 
+#Sass files
+.sass-cache
+*.css.map
+
 #assets/*/lib
 app/assets/js/lib
 app/assets/scss/lib
+app/assets/css/lib

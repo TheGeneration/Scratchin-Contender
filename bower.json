@@ -32,9 +32,17 @@
   },
   "install": {
     "path": {
-        "js": "app/assets/js/lib",
-        "scss": "app/assets/scss/lib",
-        "css": "app/assets/css/lib"
+      "js": "app/assets/js/lib",
+      "scss": "app/assets/scss/lib",
+      "css": "app/assets/css/lib"
+    },
+    "sources": {
+      "bourbon": [
+        "bower_components/app/assets/stylesheets/_bourbon.scss",
+        "bower_components/app/assets/stylesheets/settings/_prefixer.scss",
+        "bower_components/app/assets/stylesheets/settings/_px-to-em.scss",
+        "bower_components/app/assets/stylesheets/settings/_asset-pipeline.scss"
+      ]
     }
   }
 }
