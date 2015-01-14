@@ -37,12 +37,8 @@
       "css": "app/assets/css/lib"
     },
     "sources": {
-      "bourbon": [
-        "bower_components/app/assets/stylesheets/_bourbon.scss",
-        "bower_components/app/assets/stylesheets/settings/_prefixer.scss",
-        "bower_components/app/assets/stylesheets/settings/_px-to-em.scss",
-        "bower_components/app/assets/stylesheets/settings/_asset-pipeline.scss"
-      ]
+      "bourbon": "bower_components/bourbon/app/assets/stylesheets/**",
+      "neat": "bower_components/neat/app/assets/stylesheets/**"
     }
   }
 }
