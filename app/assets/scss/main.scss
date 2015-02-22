@@ -1,7 +1,8 @@
 //------------------------
 // Modules and components
 //------------------------
-
+//Normalize scss
+@import "../css/lib/normalize.css";
 //Bourbon sass libary
 @import "lib/bourbon/_bourbon.scss";
 //Neat grid system

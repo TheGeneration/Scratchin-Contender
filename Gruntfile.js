@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
 		sass: {
-			dist: {
+			dev: {
 				options: {
 					style: "expanded"
 				},
@@ -13,6 +13,8 @@ module.exports = function(grunt) {
 	});
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-requirejs');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
 
 	grunt.registerTask('default', ['sass']);
 };
